@@ -32,7 +32,8 @@ class Bvbg::Bvbg86Handler
       volume: raw_item[:FinInstrmAttrbts][:NtlFinVol],
       quantity: raw_item[:FinInstrmAttrbts][:FinInstrmQty],
       trades: raw_item[:TradDtls][:TradQty],
-      adj_close: raw_item[:FinInstrmAttrbts][:OscnPctg]
+      adj_close: raw_item[:FinInstrmAttrbts][:OscnPctg],
+      future_adj: raw_item[:FinInstrmAttrbts][:AdjstdValCtrct]
     }
   end
 

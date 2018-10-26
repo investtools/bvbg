@@ -5,9 +5,9 @@ RSpec.describe Bvbg do
 
   let(:date) { Date.parse('2017-08-28') }
   let(:bvbg86_file) { File.new('spec/fixtures/bvbg86_example.xml') }
-  let(:bvbg86_parser) { Bvbg::Parser.new(bvbg86_file, date) }
+  let(:bvbg86_parser) { Bvbg::Parser.new(bvbg86_file) }
   let(:bvbg87_file) { File.new('spec/fixtures/bvbg87_example.xml') }
-  let(:bvbg87_parser) { Bvbg::Parser.new(bvbg87_file, date) }
+  let(:bvbg87_parser) { Bvbg::Parser.new(bvbg87_file) }
   let(:dummy_file) { File.new('spec/fixtures/dummy.txt') }
   
   describe '#parse' do 
@@ -21,7 +21,7 @@ RSpec.describe Bvbg do
         expect { |b| bvbg86_parser.parse(&b) }.to yield_control.at_most(result.count).times
       end
       it "should raise file unsupported if file is not supported" do
-        expect { Bvbg::Parser.new(dummy_file, date).parse }.to raise_error("Unsupported file")
+        expect { Bvbg::Parser.new(dummy_file).parse }.to raise_error("Unsupported file")
       end
     end
 

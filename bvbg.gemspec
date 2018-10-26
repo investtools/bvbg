@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "bvbg"
   spec.version       = Bvbg::VERSION
   spec.authors       = ["Pedro Aguiar dos Santos"]
-  spec.email         = ["pedro.santos@investtools.com.br"]
+  spec.email         = ["desenvolvimento@investtools.com.br"]
 
   spec.summary       = %q{Gem for reading Bovespa BVBG files}
   spec.homepage      = "https://github.com/investtools/bvbg.git"
