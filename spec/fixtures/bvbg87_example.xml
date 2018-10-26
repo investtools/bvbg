@@ -1,0 +1,3258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Document xsi:schemaLocation="urn:bvmf.052.01.xsd bvmf.052.01.xsd"
+  xmlns="urn:bvmf.052.01.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BizFileHdr>
+    <Xchg>
+      <BizGrpDesc>
+        <Fr>
+          <OrgId>
+            <Id>
+              <OrgId>
+                <Othr>
+                  <Id>BVMF</Id>
+                  <Issr>40</Issr>
+                  <SchmeNm>
+                    <Prtry>39</Prtry>
+                  </SchmeNm>
+                </Othr>
+              </OrgId>
+            </Id>
+          </OrgId>
+        </Fr>
+        <To>
+          <OrgId>
+            <Id>
+              <OrgId>
+                <Othr>
+                  <Id>PUBLIC</Id>
+                  <Issr>40</Issr>
+                  <SchmeNm>
+                    <Prtry>39</Prtry>
+                  </SchmeNm>
+                </Othr>
+              </OrgId>
+            </Id>
+          </OrgId>
+        </To>
+        <BizGrpDtls>
+          <BizGrpIdr>BV000335201709040001000000000000001</BizGrpIdr>
+          <TtlNbOfMsg>1</TtlNbOfMsg>
+          <BizGrpTp>BVBG.087.01</BizGrpTp>
+          <CreDtAndTm>2017-09-04T17:25:00</CreDtAndTm>
+        </BizGrpDtls>
+        <MsgTpDef>
+          <MsgDefIdr>bvmf.218.01</MsgDefIdr>
+          <NbOfMsg>1</NbOfMsg>
+        </MsgTpDef>
+      </BizGrpDesc>
+      <BizGrp>
+        <AppHdr xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.01"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:head.001.001.01 head.001.001.01.xsd">
+          <BizMsgIdr>BV000335201709040001000000000000001</BizMsgIdr>
+          <MsgDefIdr>bvmf.218.01</MsgDefIdr>
+          <CreDt>2017-09-04T17:25:00.0Z</CreDt>
+          <Fr>
+            <OrgId>
+              <Id>
+                <OrgId>
+                  <Othr>
+                    <Id>BVMF</Id>
+                    <SchmeNm>
+                      <Prtry>39</Prtry>
+                    </SchmeNm>
+                    <Issr>40</Issr>
+                  </Othr>
+                </OrgId>
+              </Id>
+            </OrgId>
+          </Fr>
+          <To>
+            <OrgId>
+              <Id>
+                <OrgId>
+                  <Othr>
+                    <Id>PUBLIC</Id>
+                    <SchmeNm>
+                      <Prtry>39</Prtry>
+                    </SchmeNm>
+                    <Issr>40</Issr>
+                  </Othr>
+                </OrgId>
+              </Id>
+            </OrgId>
+          </To>
+        </AppHdr><Document xmlns="urn:bvmf.218.01.xsd">
+    <IndxRpt>
+        <TradDt>
+            <Dt>2017-09-04</Dt>
+        </TradDt>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>BDRX</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018357</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">4270.79</OpngPric>
+                <MinPric Ccy="BRL">4260</MinPric>
+                <MaxPric Ccy="BRL">4270.79</MaxPric>
+                <TradAvrgPric Ccy="BRL">4267.48</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">4270.92</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">4266.32</ClsgPric>
+                <IndxVal Ccy="BRL">4266.32</IndxVal>
+                <OscnVal>-0.00107486674</OscnVal>
+            </SctyInf>
+            <AsstDesc>BDRX</AsstDesc>
+            <SttlmVal Ccy="BRL">4267.2569</SttlmVal>
+            <RsngShrsNb>2</RsngShrsNb>
+            <FlngShrsNb>5</FlngShrsNb>
+            <StblShrsNb>117</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>IBXX</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018379</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">29845.85</OpngPric>
+                <MinPric Ccy="BRL">29743.82</MinPric>
+                <MaxPric Ccy="BRL">29952.28</MaxPric>
+                <TradAvrgPric Ccy="BRL">29864.02</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">29846.46</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">29947.76</ClsgPric>
+                <IndxVal Ccy="BRL">29947.76</IndxVal>
+                <OscnVal>0.00339382242</OscnVal>
+            </SctyInf>
+            <AsstDesc>IBRX BRASIL</AsstDesc>
+            <SttlmVal Ccy="BRL">29899.3089</SttlmVal>
+            <RsngShrsNb>61</RsngShrsNb>
+            <FlngShrsNb>39</FlngShrsNb>
+            <StblShrsNb>0</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>IGCX</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018373</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">11188.13</OpngPric>
+                <MinPric Ccy="BRL">11154.72</MinPric>
+                <MaxPric Ccy="BRL">11225.95</MaxPric>
+                <TradAvrgPric Ccy="BRL">11194.01</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">11188.05</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">11223.65</ClsgPric>
+                <IndxVal Ccy="BRL">11223.65</IndxVal>
+                <OscnVal>0.00318255099</OscnVal>
+            </SctyInf>
+            <AsstDesc>IGOVERNANCA</AsstDesc>
+            <SttlmVal Ccy="BRL">11206.3342</SttlmVal>
+            <RsngShrsNb>104</RsngShrsNb>
+            <FlngShrsNb>71</FlngShrsNb>
+            <StblShrsNb>12</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>IBXL</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10029579</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">12018.5</OpngPric>
+                <MinPric Ccy="BRL">11977.2</MinPric>
+                <MaxPric Ccy="BRL">12053.51</MaxPric>
+                <TradAvrgPric Ccy="BRL">12020.08</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">12018.79</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">12051.41</ClsgPric>
+                <IndxVal Ccy="BRL">12051.41</IndxVal>
+                <OscnVal>0.00271449319</OscnVal>
+            </SctyInf>
+            <AsstDesc>IBRX 50</AsstDesc>
+            <SttlmVal Ccy="BRL">12031.6578</SttlmVal>
+            <RsngShrsNb>27</RsngShrsNb>
+            <FlngShrsNb>23</FlngShrsNb>
+            <StblShrsNb>0</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>IGCT</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018381</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">3114</OpngPric>
+                <MinPric Ccy="BRL">3102.81</MinPric>
+                <MaxPric Ccy="BRL">3124.19</MaxPric>
+                <TradAvrgPric Ccy="BRL">3114.76</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">3113.99</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">3122.84</ClsgPric>
+                <IndxVal Ccy="BRL">3122.84</IndxVal>
+                <OscnVal>0.00284377693</OscnVal>
+            </SctyInf>
+            <AsstDesc>IGC TRADE</AsstDesc>
+            <SttlmVal Ccy="BRL">3118.7259</SttlmVal>
+            <RsngShrsNb>66</RsngShrsNb>
+            <FlngShrsNb>46</FlngShrsNb>
+            <StblShrsNb>5</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>MLCX</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018389</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">1363.76</OpngPric>
+                <MinPric Ccy="BRL">1359.41</MinPric>
+                <MaxPric Ccy="BRL">1367.65</MaxPric>
+                <TradAvrgPric Ccy="BRL">1364.11</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">1363.8</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">1367.42</ClsgPric>
+                <IndxVal Ccy="BRL">1367.42</IndxVal>
+                <OscnVal>0.00265447335</OscnVal>
+            </SctyInf>
+            <AsstDesc>MIDLARGE CAP</AsstDesc>
+            <SttlmVal Ccy="BRL">1365.295</SttlmVal>
+            <RsngShrsNb>30</RsngShrsNb>
+            <FlngShrsNb>28</FlngShrsNb>
+            <StblShrsNb>0</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>UTIL</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018392</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">4125.64</OpngPric>
+                <MinPric Ccy="BRL">4109.52</MinPric>
+                <MaxPric Ccy="BRL">4145.83</MaxPric>
+                <TradAvrgPric Ccy="BRL">4129.23</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">4126.23</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">4132.56</ClsgPric>
+                <IndxVal Ccy="BRL">4132.56</IndxVal>
+                <OscnVal>0.00153194582</OscnVal>
+            </SctyInf>
+            <AsstDesc>UTILITIES</AsstDesc>
+            <SttlmVal Ccy="BRL">4135.6373</SttlmVal>
+            <RsngShrsNb>11</RsngShrsNb>
+            <FlngShrsNb>9</FlngShrsNb>
+            <StblShrsNb>0</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>INDX</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018385</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">14254.44</OpngPric>
+                <MinPric Ccy="BRL">14226.56</MinPric>
+                <MaxPric Ccy="BRL">14385.86</MaxPric>
+                <TradAvrgPric Ccy="BRL">14324.52</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">14254.45</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">14385</ClsgPric>
+                <IndxVal Ccy="BRL">14385</IndxVal>
+                <OscnVal>0.00915856246</OscnVal>
+            </SctyInf>
+            <AsstDesc>INDUSTRIAL</AsstDesc>
+            <SttlmVal Ccy="BRL">14340.8539</SttlmVal>
+            <RsngShrsNb>30</RsngShrsNb>
+            <FlngShrsNb>12</FlngShrsNb>
+            <StblShrsNb>3</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>IMOB</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018386</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">738.39</OpngPric>
+                <MinPric Ccy="BRL">733.15</MinPric>
+                <MaxPric Ccy="BRL">739.63</MaxPric>
+                <TradAvrgPric Ccy="BRL">735.61</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">738.26</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">739.54</ClsgPric>
+                <IndxVal Ccy="BRL">739.54</IndxVal>
+                <OscnVal>0.00173920658</OscnVal>
+            </SctyInf>
+            <AsstDesc>IMOBILIARIO</AsstDesc>
+            <SttlmVal Ccy="BRL">736.3779</SttlmVal>
+            <RsngShrsNb>9</RsngShrsNb>
+            <FlngShrsNb>3</FlngShrsNb>
+            <StblShrsNb>3</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>IFIX</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018374</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">2098.29</OpngPric>
+                <MinPric Ccy="BRL">2095.32</MinPric>
+                <MaxPric Ccy="BRL">2104.68</MaxPric>
+                <TradAvrgPric Ccy="BRL">2099.35</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">2098.3</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">2102.29</ClsgPric>
+                <IndxVal Ccy="BRL">2102.29</IndxVal>
+                <OscnVal>0.00190197727</OscnVal>
+            </SctyInf>
+            <AsstDesc>IND FDO IMOB</AsstDesc>
+            <SttlmVal Ccy="BRL">2099.1067</SttlmVal>
+            <RsngShrsNb>38</RsngShrsNb>
+            <FlngShrsNb>26</FlngShrsNb>
+            <StblShrsNb>8</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>IEEX</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018378</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">41389.98</OpngPric>
+                <MinPric Ccy="BRL">41289.7</MinPric>
+                <MaxPric Ccy="BRL">41545.96</MaxPric>
+                <TradAvrgPric Ccy="BRL">41435.64</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">41426.29</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">41480.66</ClsgPric>
+                <IndxVal Ccy="BRL">41480.66</IndxVal>
+                <OscnVal>0.00131260412</OscnVal>
+            </SctyInf>
+            <AsstDesc>IEELETRICA</AsstDesc>
+            <SttlmVal Ccy="BRL">41488.8383</SttlmVal>
+            <RsngShrsNb>9</RsngShrsNb>
+            <FlngShrsNb>9</FlngShrsNb>
+            <StblShrsNb>0</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>IVBX</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018390</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">10167.69</OpngPric>
+                <MinPric Ccy="BRL">10133.48</MinPric>
+                <MaxPric Ccy="BRL">10210.91</MaxPric>
+                <TradAvrgPric Ccy="BRL">10172.7</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">10167.53</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">10210.91</ClsgPric>
+                <IndxVal Ccy="BRL">10210.91</IndxVal>
+                <OscnVal>0.00426586392</OscnVal>
+            </SctyInf>
+            <AsstDesc>IVBX2</AsstDesc>
+            <SttlmVal Ccy="BRL">10183.7926</SttlmVal>
+            <RsngShrsNb>28</RsngShrsNb>
+            <FlngShrsNb>22</FlngShrsNb>
+            <StblShrsNb>0</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>IMAT</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018380</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">2278.34</OpngPric>
+                <MinPric Ccy="BRL">2265.94</MinPric>
+                <MaxPric Ccy="BRL">2319.88</MaxPric>
+                <TradAvrgPric Ccy="BRL">2301.56</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">2278.08</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">2319.75</ClsgPric>
+                <IndxVal Ccy="BRL">2319.75</IndxVal>
+                <OscnVal>0.01829251393</OscnVal>
+            </SctyInf>
+            <AsstDesc>IMAT BASICOS</AsstDesc>
+            <SttlmVal Ccy="BRL">2311.5024</SttlmVal>
+            <RsngShrsNb>10</RsngShrsNb>
+            <FlngShrsNb>2</FlngShrsNb>
+            <StblShrsNb>0</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>ICO2</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018376</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">1711.96</OpngPric>
+                <MinPric Ccy="BRL">1705.43</MinPric>
+                <MaxPric Ccy="BRL">1712.92</MaxPric>
+                <TradAvrgPric Ccy="BRL">1709.16</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">1711.94</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">1711.81</ClsgPric>
+                <IndxVal Ccy="BRL">1711.81</IndxVal>
+                <OscnVal>-0.00007812489</OscnVal>
+            </SctyInf>
+            <AsstDesc>ICO2</AsstDesc>
+            <SttlmVal Ccy="BRL">1709.27</SttlmVal>
+            <RsngShrsNb>12</RsngShrsNb>
+            <FlngShrsNb>15</FlngShrsNb>
+            <StblShrsNb>0</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>SMLL</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018394</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">1565.5</OpngPric>
+                <MinPric Ccy="BRL">1556.73</MinPric>
+                <MaxPric Ccy="BRL">1580.77</MaxPric>
+                <TradAvrgPric Ccy="BRL">1570.94</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">1565.43</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">1578.86</ClsgPric>
+                <IndxVal Ccy="BRL">1578.86</IndxVal>
+                <OscnVal>0.00858081914</OscnVal>
+            </SctyInf>
+            <AsstDesc>SMALL CAP</AsstDesc>
+            <SttlmVal Ccy="BRL">1575.9788</SttlmVal>
+            <RsngShrsNb>43</RsngShrsNb>
+            <FlngShrsNb>21</FlngShrsNb>
+            <StblShrsNb>5</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>ITAG</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018393</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">15888.92</OpngPric>
+                <MinPric Ccy="BRL">15845.18</MinPric>
+                <MaxPric Ccy="BRL">15929.4</MaxPric>
+                <TradAvrgPric Ccy="BRL">15889.07</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">15889.17</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">15925.07</ClsgPric>
+                <IndxVal Ccy="BRL">15925.07</IndxVal>
+                <OscnVal>0.00225921111</OscnVal>
+            </SctyInf>
+            <AsstDesc>ITAG ALONG</AsstDesc>
+            <SttlmVal Ccy="BRL">15900.7736</SttlmVal>
+            <RsngShrsNb>101</RsngShrsNb>
+            <FlngShrsNb>69</FlngShrsNb>
+            <StblShrsNb>17</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>ICON</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018377</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">3507.94</OpngPric>
+                <MinPric Ccy="BRL">3498.34</MinPric>
+                <MaxPric Ccy="BRL">3526.84</MaxPric>
+                <TradAvrgPric Ccy="BRL">3511.66</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">3508.07</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">3526.78</ClsgPric>
+                <IndxVal Ccy="BRL">3526.78</IndxVal>
+                <OscnVal>0.00533393768</OscnVal>
+            </SctyInf>
+            <AsstDesc>ICONSUMO</AsstDesc>
+            <SttlmVal Ccy="BRL">3515.4578</SttlmVal>
+            <RsngShrsNb>30</RsngShrsNb>
+            <FlngShrsNb>15</FlngShrsNb>
+            <StblShrsNb>4</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>IGNM</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018383</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">2373.9</OpngPric>
+                <MinPric Ccy="BRL">2367.56</MinPric>
+                <MaxPric Ccy="BRL">2382.09</MaxPric>
+                <TradAvrgPric Ccy="BRL">2375.23</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">2373.87</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">2381.72</ClsgPric>
+                <IndxVal Ccy="BRL">2381.72</IndxVal>
+                <OscnVal>0.00330781324</OscnVal>
+            </SctyInf>
+            <AsstDesc>IGC - NM</AsstDesc>
+            <SttlmVal Ccy="BRL">2376.9447</SttlmVal>
+            <RsngShrsNb>72</RsngShrsNb>
+            <FlngShrsNb>49</FlngShrsNb>
+            <StblShrsNb>7</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>IBRA</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018384</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">2770.91</OpngPric>
+                <MinPric Ccy="BRL">2761.71</MinPric>
+                <MaxPric Ccy="BRL">2780.92</MaxPric>
+                <TradAvrgPric Ccy="BRL">2772.8</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">2770.97</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">2780.51</ClsgPric>
+                <IndxVal Ccy="BRL">2780.51</IndxVal>
+                <OscnVal>0.00344317371</OscnVal>
+            </SctyInf>
+            <AsstDesc>IBRASIL</AsstDesc>
+            <SttlmVal Ccy="BRL">2776.0246</SttlmVal>
+            <RsngShrsNb>75</RsngShrsNb>
+            <FlngShrsNb>47</FlngShrsNb>
+            <StblShrsNb>5</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>IDIV</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018388</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">3963.63</OpngPric>
+                <MinPric Ccy="BRL">3952.44</MinPric>
+                <MaxPric Ccy="BRL">3981.79</MaxPric>
+                <TradAvrgPric Ccy="BRL">3969.79</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">3963.87</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">3973.82</ClsgPric>
+                <IndxVal Ccy="BRL">3973.82</IndxVal>
+                <OscnVal>0.00250901447</OscnVal>
+            </SctyInf>
+            <AsstDesc>I DIVIDENDOS</AsstDesc>
+            <SttlmVal Ccy="BRL">3974.1013</SttlmVal>
+            <RsngShrsNb>16</RsngShrsNb>
+            <FlngShrsNb>13</FlngShrsNb>
+            <StblShrsNb>1</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>ISEE</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018391</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">2764.56</OpngPric>
+                <MinPric Ccy="BRL">2755.88</MinPric>
+                <MaxPric Ccy="BRL">2779.96</MaxPric>
+                <TradAvrgPric Ccy="BRL">2769.63</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">2764.58</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">2776.64</ClsgPric>
+                <IndxVal Ccy="BRL">2776.64</IndxVal>
+                <OscnVal>0.0043609815</OscnVal>
+            </SctyInf>
+            <AsstDesc>ISUSTENTABIL</AsstDesc>
+            <SttlmVal Ccy="BRL">2773.4127</SttlmVal>
+            <RsngShrsNb>19</RsngShrsNb>
+            <FlngShrsNb>19</FlngShrsNb>
+            <StblShrsNb>0</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>IFNC</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10018387</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">7771.84</OpngPric>
+                <MinPric Ccy="BRL">7737.11</MinPric>
+                <MaxPric Ccy="BRL">7778.99</MaxPric>
+                <TradAvrgPric Ccy="BRL">7757.62</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">7772.22</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">7760.93</ClsgPric>
+                <IndxVal Ccy="BRL">7760.93</IndxVal>
+                <OscnVal>-0.00145216208</OscnVal>
+            </SctyInf>
+            <AsstDesc>IFINANCEIRO</AsstDesc>
+            <SttlmVal Ccy="BRL">7760.4249</SttlmVal>
+            <RsngShrsNb>5</RsngShrsNb>
+            <FlngShrsNb>9</FlngShrsNb>
+            <StblShrsNb>1</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>IBOV</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>10036776</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">71921.46</OpngPric>
+                <MinPric Ccy="BRL">71670.89</MinPric>
+                <MaxPric Ccy="BRL">72141.04</MaxPric>
+                <TradAvrgPric Ccy="BRL">71940.58</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">71923.11</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">72128.83</ClsgPric>
+                <IndxVal Ccy="BRL">72128.83</IndxVal>
+                <OscnVal>0.00286027045</OscnVal>
+            </SctyInf>
+            <AsstDesc>IBOVESPA</AsstDesc>
+            <SttlmVal Ccy="BRL">72018.1779</SttlmVal>
+            <RsngShrsNb>32</RsngShrsNb>
+            <FlngShrsNb>27</FlngShrsNb>
+            <StblShrsNb>0</StblShrsNb>
+        </IndxInf>
+        <IndxInf>
+            <SctyInf>
+                <SctyId>
+                    <TckrSymb>TFIX</TckrSymb>
+                </SctyId>
+                <FinInstrmId>
+                    <OthrId>
+                        <Id>200000032811</Id>
+                        <Tp>
+                            <Prtry>8</Prtry>
+                        </Tp>
+                    </OthrId>
+                    <PlcOfListg>
+                        <MktIdrCd>BVMF</MktIdrCd>
+                    </PlcOfListg>
+                </FinInstrmId>
+                <OpngPric Ccy="BRL">4100</OpngPric>
+                <MinPric Ccy="BRL">2300</MinPric>
+                <MaxPric Ccy="BRL">8000</MaxPric>
+                <TradAvrgPric Ccy="BRL">4269.07</TradAvrgPric>
+                <PrvsDayClsgPric Ccy="BRL">4000</PrvsDayClsgPric>
+                <ClsgPric Ccy="BRL">4000</ClsgPric>
+                <IndxVal Ccy="BRL">4000</IndxVal>
+                <OscnVal>0</OscnVal>
+            </SctyInf>
+            <AsstDesc>INDICE TESTE</AsstDesc>
+            <RsngShrsNb>0</RsngShrsNb>
+            <FlngShrsNb>0</FlngShrsNb>
+            <StblShrsNb>8</StblShrsNb>
+        </IndxInf>
+        <IOPVInf>
+            <SctyId>
+                <TckrSymb>FIND</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10016351</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <OpngPric Ccy="BRL">75.31</OpngPric>
+            <MinPric Ccy="BRL">74.97</MinPric>
+            <MaxPric Ccy="BRL">75.37</MaxPric>
+            <TradAvrgPric Ccy="BRL">75.17</TradAvrgPric>
+            <PrvsDayClsgPric Ccy="BRL">75.3</PrvsDayClsgPric>
+            <ClsgPric Ccy="BRL">75.2</ClsgPric>
+            <IndxVal Ccy="BRL">75.2</IndxVal>
+            <OscnVal>-0.00130057524</OscnVal>
+        </IOPVInf>
+        <IOPVInf>
+            <SctyId>
+                <TckrSymb>MATB</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10016368</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <OpngPric Ccy="BRL">22.99</OpngPric>
+            <MinPric Ccy="BRL">22.86</MinPric>
+            <MaxPric Ccy="BRL">23.4</MaxPric>
+            <TradAvrgPric Ccy="BRL">23.22</TradAvrgPric>
+            <PrvsDayClsgPric Ccy="BRL">22.98</PrvsDayClsgPric>
+            <ClsgPric Ccy="BRL">23.4</ClsgPric>
+            <IndxVal Ccy="BRL">23.4</IndxVal>
+            <OscnVal>0.01827234269</OscnVal>
+        </IOPVInf>
+        <IOPVInf>
+            <SctyId>
+                <TckrSymb>SMAL</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10016383</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <OpngPric Ccy="BRL">76.13</OpngPric>
+            <MinPric Ccy="BRL">75.71</MinPric>
+            <MaxPric Ccy="BRL">76.87</MaxPric>
+            <TradAvrgPric Ccy="BRL">76.4</TradAvrgPric>
+            <PrvsDayClsgPric Ccy="BRL">76.41</PrvsDayClsgPric>
+            <ClsgPric Ccy="BRL">76.78</ClsgPric>
+            <IndxVal Ccy="BRL">76.78</IndxVal>
+            <OscnVal>0.00481116548</OscnVal>
+        </IOPVInf>
+        <IOPVInf>
+            <SctyId>
+                <TckrSymb>DIVO</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10016359</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <OpngPric Ccy="BRL">40.15</OpngPric>
+            <MinPric Ccy="BRL">40.04</MinPric>
+            <MaxPric Ccy="BRL">40.33</MaxPric>
+            <TradAvrgPric Ccy="BRL">40.21</TradAvrgPric>
+            <PrvsDayClsgPric Ccy="BRL">40.15</PrvsDayClsgPric>
+            <ClsgPric Ccy="BRL">40.25</ClsgPric>
+            <IndxVal Ccy="BRL">40.25</IndxVal>
+            <OscnVal>0.00263249873</OscnVal>
+        </IOPVInf>
+        <IOPVInf>
+            <SctyId>
+                <TckrSymb>BRAX</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10016358</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <OpngPric Ccy="BRL">58.83</OpngPric>
+            <MinPric Ccy="BRL">58.63</MinPric>
+            <MaxPric Ccy="BRL">59.03</MaxPric>
+            <TradAvrgPric Ccy="BRL">58.86</TradAvrgPric>
+            <PrvsDayClsgPric Ccy="BRL">58.84</PrvsDayClsgPric>
+            <ClsgPric Ccy="BRL">59.02</ClsgPric>
+            <IndxVal Ccy="BRL">59.02</IndxVal>
+            <OscnVal>0.00310271279</OscnVal>
+        </IOPVInf>
+        <IOPVInf>
+            <SctyId>
+                <TckrSymb>PIBB</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10029577</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <OpngPric Ccy="BRL">123.33</OpngPric>
+            <MinPric Ccy="BRL">122.91</MinPric>
+            <MaxPric Ccy="BRL">123.67</MaxPric>
+            <TradAvrgPric Ccy="BRL">123.34</TradAvrgPric>
+            <PrvsDayClsgPric Ccy="BRL">123.27</PrvsDayClsgPric>
+            <ClsgPric Ccy="BRL">123.65</ClsgPric>
+            <IndxVal Ccy="BRL">123.65</IndxVal>
+            <OscnVal>0.00307296755</OscnVal>
+        </IOPVInf>
+        <IOPVInf>
+            <SctyId>
+                <TckrSymb>ECOO</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10016355</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <OpngPric Ccy="BRL">80.43</OpngPric>
+            <MinPric Ccy="BRL">80.12</MinPric>
+            <MaxPric Ccy="BRL">80.47</MaxPric>
+            <TradAvrgPric Ccy="BRL">80.3</TradAvrgPric>
+            <PrvsDayClsgPric Ccy="BRL">80.43</PrvsDayClsgPric>
+            <ClsgPric Ccy="BRL">80.42</ClsgPric>
+            <IndxVal Ccy="BRL">80.42</IndxVal>
+            <OscnVal>-0.00008778136</OscnVal>
+        </IOPVInf>
+        <IOPVInf>
+            <SctyId>
+                <TckrSymb>GOVE</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10016363</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <OpngPric Ccy="BRL">30.8</OpngPric>
+            <MinPric Ccy="BRL">30.69</MinPric>
+            <MaxPric Ccy="BRL">30.9</MaxPric>
+            <TradAvrgPric Ccy="BRL">30.8</TradAvrgPric>
+            <PrvsDayClsgPric Ccy="BRL">30.79</PrvsDayClsgPric>
+            <ClsgPric Ccy="BRL">30.88</ClsgPric>
+            <IndxVal Ccy="BRL">30.88</IndxVal>
+            <OscnVal>0.00296840476</OscnVal>
+        </IOPVInf>
+        <IOPVInf>
+            <SctyId>
+                <TckrSymb>ISUS</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10016362</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <OpngPric Ccy="BRL">27.57</OpngPric>
+            <MinPric Ccy="BRL">27.48</MinPric>
+            <MaxPric Ccy="BRL">27.72</MaxPric>
+            <TradAvrgPric Ccy="BRL">27.62</TradAvrgPric>
+            <PrvsDayClsgPric Ccy="BRL">27.56</PrvsDayClsgPric>
+            <ClsgPric Ccy="BRL">27.68</ClsgPric>
+            <IndxVal Ccy="BRL">27.68</IndxVal>
+            <OscnVal>0.0044811601</OscnVal>
+        </IOPVInf>
+        <IOPVInf>
+            <SctyId>
+                <TckrSymb>XBOV</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10016393</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <OpngPric Ccy="BRL">71.4</OpngPric>
+            <MinPric Ccy="BRL">71.15</MinPric>
+            <MaxPric Ccy="BRL">71.61</MaxPric>
+            <TradAvrgPric Ccy="BRL">71.42</TradAvrgPric>
+            <PrvsDayClsgPric Ccy="BRL">71.4</PrvsDayClsgPric>
+            <ClsgPric Ccy="BRL">71.6</ClsgPric>
+            <IndxVal Ccy="BRL">71.6</IndxVal>
+            <OscnVal>0.00285540976</OscnVal>
+        </IOPVInf>
+        <IOPVInf>
+            <SctyId>
+                <TckrSymb>BBSD</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10026185</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <OpngPric Ccy="BRL">55.77</OpngPric>
+            <MinPric Ccy="BRL">55.51</MinPric>
+            <MaxPric Ccy="BRL">56.38</MaxPric>
+            <TradAvrgPric Ccy="BRL">56.05</TradAvrgPric>
+            <PrvsDayClsgPric Ccy="BRL">55.76</PrvsDayClsgPric>
+            <ClsgPric Ccy="BRL">56.31</ClsgPric>
+            <IndxVal Ccy="BRL">56.31</IndxVal>
+            <OscnVal>0.00986948136</OscnVal>
+        </IOPVInf>
+        <IOPVInf>
+            <SctyId>
+                <TckrSymb>BOVV</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000044336</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <OpngPric Ccy="BRL">72.04</OpngPric>
+            <MinPric Ccy="BRL">71.79</MinPric>
+            <MaxPric Ccy="BRL">72.25</MaxPric>
+            <TradAvrgPric Ccy="BRL">72.06</TradAvrgPric>
+            <PrvsDayClsgPric Ccy="BRL">72.02</PrvsDayClsgPric>
+            <ClsgPric Ccy="BRL">72.24</ClsgPric>
+            <IndxVal Ccy="BRL">72.24</IndxVal>
+            <OscnVal>0.00305547727</OscnVal>
+        </IOPVInf>
+        <IOPVInf>
+            <SctyId>
+                <TckrSymb>BOVA</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000081098</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <OpngPric Ccy="BRL">69.52</OpngPric>
+            <MinPric Ccy="BRL">69.28</MinPric>
+            <MaxPric Ccy="BRL">69.73</MaxPric>
+            <TradAvrgPric Ccy="BRL">69.54</TradAvrgPric>
+            <PrvsDayClsgPric Ccy="BRL">69.51</PrvsDayClsgPric>
+            <ClsgPric Ccy="BRL">69.72</ClsgPric>
+            <IndxVal Ccy="BRL">69.72</IndxVal>
+            <OscnVal>0.00304893313</OscnVal>
+        </IOPVInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>FBOK34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10019102</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">270.68</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>CLGN34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10033781</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">439.57</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>AVON34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10033647</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">4.2</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>FCXO34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10033061</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">47.44</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>FMXB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10031822</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">313.08</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>NFLX34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10030995</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">548.72</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>EBAY34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10030910</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">57.23</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>ESRX34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000036047</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">97.86</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>SSFO34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000036007</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">151.1</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>AMZO34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10026547</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">1536.34</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>GOGL35</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>100000069164</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">118.02</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>GOGL34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>100000069163</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">119.8</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>TWTR34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10024147</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">26.52</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>BERK34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>10014730</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">567.68</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>GPRO34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000043919</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">28.34</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>TSLA34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000043918</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">279.44</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>RIGG34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000043942</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">26.83</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>CHKE34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000043954</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">11.86</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>SANC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000043957</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">13.64</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>JCPC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000043972</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">14.98</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>SPRN34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000044011</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">25.98</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>FSLR34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000044016</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">75.2</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>BIIB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000075128</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">168.34</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>ACNB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000093235</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">408.54</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>UBSG34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000098089</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">51.64</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>ARMT34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000102131</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">43.02</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>MOSC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000103006</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">31.42</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>ROST34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000103399</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">92.69</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>TRVC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000103759</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">188.6</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>KMBB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000103764</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">387.39</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>GMCO34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000103790</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">117.71</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>HPQB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000104768</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">60.8</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>BBYY34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000104979</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">171.62</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>AIGB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000105105</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">190.62</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>TMOS34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000105328</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">146.18</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>WUNI34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000105492</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">59.15</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>GILD34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000105516</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">130.68</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>MRCK34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000105587</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">200.92</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>COCA34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000105592</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">143.47</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>MACY34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000105698</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">67.35</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>TIFF34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000106176</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">290.96</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>GEOO34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000107109</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">79.07</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>FDXB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000107672</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">675.31</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>USBC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000108609</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">162.72</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>XRXB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000108618</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">102.24</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>DHER34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000108619</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">65.26</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>MDLZ34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000108646</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">64.28</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>BOXP34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000108650</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">37.72</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>CMCS34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000108848</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">126.4</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>GPSI34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000108852</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">76.38</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>JPMC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000109142</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">143.69</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>BMYB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000109710</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">188.1</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>CSCO34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000109862</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">101.66</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>AXPB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000109981</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">270.5</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>MSCD34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000110035</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">418.96</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>MDTC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000110047</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">125.87</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>GDBR34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000110069</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">628.04</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>VERZ34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000110347</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">150.51</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>ATTB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000110744</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">117.7</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>TWXB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000110815</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">319.05</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>DISB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000111059</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">311.66</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>AETB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000112188</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">496.76</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>ABBV34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000112371</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">237.5</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>ABTT34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000112412</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">40.24</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>COLG34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000113152</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">223.79</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>ORCL34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000114035</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">159.56</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>CATP34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000114614</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">372.63</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>PGCO34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000114845</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">290.08</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>CVSH34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000114921</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">117.73</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>FDMO34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000115083</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">35.69</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>COPH34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000115127</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">34.89</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>DOWB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000115538</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">204.53</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>MSBR34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000115562</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">145.05</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>TEXA34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000115577</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">259.2</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>DUPO34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000115629</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">266.94</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>BONY34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000115857</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">164.33</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>PFIZ34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000116275</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">106.79</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>WFCO34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000116291</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">159.99</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>ARNC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000116311</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">78.25</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>CTGP34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000116400</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">215.58</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>METB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000116416</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">150.1</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>ITLC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000116432</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">110.45</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>VLOE34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000116583</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">109.02</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>USSX34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000116588</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">85.02</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>IBMB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000116758</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">452.44</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>SBUB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000116795</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">172.5</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>BOEI34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000117071</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">754.7</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>WALM34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000117093</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">61.35</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>SCHW34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000117219</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">126.18</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>AALL34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000117474</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">142.24</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>UPSS34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000117506</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">90.1</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>AAPL34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000117590</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">51.2</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>EXXO34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000117694</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">59.94</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>LILY34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000118305</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">125.79</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>TGTB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000119294</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">176.54</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>AMGN34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000119504</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">563.3</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>MSFT34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000119556</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">232.93</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>KHCB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000119688</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">253.89</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>CHVX34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000119705</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">170.48</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>COWC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000119708</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">124.37</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>HONB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000119720</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">432.2</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>VISA34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000119757</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">326.27</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>UTEC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000119784</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">370.7</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>DUKB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000119799</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">273.48</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>LBRN34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000119949</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">29.58</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>CTSH34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000120120</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">223</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>DEAI34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000120328</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">149.76</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>HSHY34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000121755</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">66.28</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>MMMC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000121810</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">160.4</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>JNJB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122107</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">411.46</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>QCOM34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122295</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">163.82</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>UPAC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122315</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">81.72</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>GSGI34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122323</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">71.1</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>ANDV34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122345</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">160.46</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>HOME34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122346</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">237.26</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>PEPB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122438</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">363.76</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>COTY34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122467</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">25.42</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>BOAC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122475</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">75.45</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>MCDC34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122526</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">125.22</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>BLAK34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122586</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">221.62</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>NIKE34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122637</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">167.65</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>LMTB34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122644</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">948.95</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>HALI34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122762</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">123.2</RefPric>
+        </BDRInf>
+        <BDRInf>
+            <SctyId>
+                <TckrSymb>SLBG34</TckrSymb>
+            </SctyId>
+            <FinInstrmId>
+                <OthrId>
+                    <Id>200000122841</Id>
+                    <Tp>
+                        <Prtry>8</Prtry>
+                    </Tp>
+                </OthrId>
+                <PlcOfListg>
+                    <MktIdrCd>BVMF</MktIdrCd>
+                </PlcOfListg>
+            </FinInstrmId>
+            <RefPric Ccy="BRL">199.11</RefPric>
+        </BDRInf>
+    </IndxRpt>
+</Document>
+      </BizGrp>
+    </Xchg>
+  </BizFileHdr>
+</Document>
