@@ -1,7 +1,6 @@
 class Bvbg::Parser
 
-  def initialize(file, date)
-    @date = date
+  def initialize(file)
     @file = file
     @handlers = [Bvbg::Bvbg86Handler, Bvbg::Bvbg87Handler]
   end
