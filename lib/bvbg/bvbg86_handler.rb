@@ -17,7 +17,6 @@ class Bvbg::Bvbg86Handler
   end
 
   def build_line(raw_item)
-    puts raw_item[:FinInstrmAttrbts][:BestBidPric]
     {
       name: raw_item[:SctyId][:TckrSymb],
       symbol: raw_item[:SctyId][:TckrSymb],
