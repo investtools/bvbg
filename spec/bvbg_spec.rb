@@ -29,55 +29,55 @@ RSpec.describe Bvbg do
       it "should return prices" do
         expect(bvbg86_parser.parse.count).to eq 4
       end
-      it "should reads the close field in the XML file" do
+      it "should read the close field in the XML file" do
         expect(bvbg86_parser.parse.first[:close]).to eq "13.87"
       end
 
-      it "should reads the date field in the XML file" do
+      it "should read the date field in the XML file" do
         expect(bvbg86_parser.parse.first[:date]).to eq Date.parse('2017-08-28')
       end
 
-      it "should reads the open field in the XML file" do
+      it "should read the open field in the XML file" do
         expect(bvbg86_parser.parse.first[:open]).to eq "13.93"
       end
 
-      it "should reads the high field in the XML file" do
+      it "should read the high field in the XML file" do
         expect(bvbg86_parser.parse.first[:high]).to eq "14.03"
       end
 
-      it "should reads the low field in the XML file" do
+      it "should read the low field in the XML file" do
         expect(bvbg86_parser.parse.first[:low]).to eq "13.76"
       end
 
-      it "should reads the average field in the XML file" do
+      it "should read the average field in the XML file" do
         expect(bvbg86_parser.parse.first[:average]).to eq "13.89"
       end
 
-      it "should reads the bid field in the XML file" do
+      it "should read the bid field in the XML file" do
         expect(bvbg86_parser.parse.first[:bid]).to eq "13.85"
       end
 
-      it "should reads the ask field in the XML file" do
+      it "should read the ask field in the XML file" do
         expect(bvbg86_parser.parse.first[:ask]).to eq "13.87"
       end
 
-      it "should reads the volume field in the XML file" do
+      it "should read the volume field in the XML file" do
         expect(bvbg86_parser.parse.first[:volume]).to eq "378100009"
       end
 
-      it "should reads the quantity field in the XML file" do
+      it "should read the quantity field in the XML file" do
         expect(bvbg86_parser.parse.first[:quantity]).to eq "27208100"
       end
 
-      it "should reads the trades field in the XML file" do
+      it "should read the trades field in the XML file" do
         expect(bvbg86_parser.parse.first[:trades]).to eq "18762"
       end
 
-      it "should reads the adj_close field in the XML file" do
+      it "should read the adj_close field in the XML file" do
         expect(bvbg86_parser.parse.first[:adj_close]).to eq "-0.07"
       end
 
-      it "should reads the security field in the XML file" do
+      it "should read the security field in the XML file" do
         expect(bvbg86_parser.parse.first[:symbol]).to eq "PETR4"
       end
     end
@@ -91,6 +91,9 @@ RSpec.describe Bvbg do
       end
       it "should read the value field" do
         expect(bvbg87_parser.parse.first[:value]).to eq "4266.32"
+      end
+      it "should read the value field" do
+        expect(bvbg87_parser.parse.first[:date]).to eq Date.parse('2017-09-04')
       end
     end
   end

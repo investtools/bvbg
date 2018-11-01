@@ -11,6 +11,9 @@ class Bvbg::Bvbg87Handler
   end
 
   def all_lines
+    @parser.for_tag(:BizGrpDtls).each do |file_details|
+      @date = Date.parse(file_details[:CreDtAndTm].to_s.split('T')[0])
+    end
     @parser.for_tag(:IndxInf).each do |item|
       yield build_line(item)
     end
@@ -19,7 +22,8 @@ class Bvbg::Bvbg87Handler
   def build_line(raw_item)
     {
       symbol: raw_item[:SctyInf][:SctyId][:TckrSymb],
-      value: raw_item[:SctyInf][:ClsgPric]
+      value: raw_item[:SctyInf][:ClsgPric],
+      date: @date
     }
   end
 
